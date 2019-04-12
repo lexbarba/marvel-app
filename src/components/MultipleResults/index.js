@@ -1,5 +1,3 @@
-'use strict'
-
 import React from 'react'
 import Feedback from '../Feedback'
 
@@ -13,7 +11,7 @@ function MultipleResults({onItemClick, feedback, results}) {
         <div key={id} onClick={() => onItemClick(id)} data-id={id} className="column cursor card is-one-third-widescreen is-two-fifths-tablet is-three-quarters-mobile has-text-centered">
             <div className="pointer card-image">
                 <figure className="image is-centered">
-                    <img className="hover" src={`${path}/detail.${extension}`}/>
+                    <img alt="character" className="hover" src={`${path}/detail.${extension}`}/>
                 </figure>
             </div>
             <div className="card-content is-centered">

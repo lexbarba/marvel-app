@@ -1,4 +1,4 @@
-'use strict'
+
 
 import React, {Component} from 'react'
 
@@ -19,7 +19,7 @@ class TopCharacter extends Component {
                 <div key={id} onClick={() => onCharacterSelected(id)} data-id={id} className="column cursor card is-one-fourth-widescreen is-three-quarters-mobile has-text-centered">
                     <div className="pointer card-image">
                         <figure className="image is-centered">
-                            <img className="hover" src={src}/>
+                            <img alt="character" className="hover" src={src}/>
                         </figure>
                     </div>
                 </div>

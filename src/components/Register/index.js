@@ -1,5 +1,3 @@
-'use strict'
-
 import React, { Component } from 'react'
 import Modal from '../Modal'
 import Feedback from '../Feedback'

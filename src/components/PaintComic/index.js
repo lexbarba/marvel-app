@@ -1,5 +1,3 @@
-'use strict'
-
 import React, {Fragment} from 'react'
 import Feedback from '../Feedback'
 
@@ -14,7 +12,7 @@ function PaintComic({onItemClick, feedback, results, characters, price, moreInfo
         <div className="tile is-parent">
             <article className="tile is-child notification">
                 <figure className="image is-4by3">
-                    <img src={`${results.thumbnail.path}/detail.${results.thumbnail.extension}`}/>
+                    <img alt="comic" src={`${results.thumbnail.path}/detail.${results.thumbnail.extension}`}/>
                     </figure>
                     <p className="title">{results.title}</p>
                     <div className="content">{results.description}</div>

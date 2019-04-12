@@ -1,5 +1,3 @@
-'use strict'
-
 const i18n = {
 
     'ch': {

@@ -1,5 +1,3 @@
-'use strict'
-
 import React, { Component } from 'react';
 
 class Search extends Component {
@@ -11,7 +9,7 @@ class Search extends Component {
     handleSearchSubmit = event => {
         event.preventDefault();
 
-        const { state: { query }, props: { onSearch, searchBtn, searchInput } } = this;
+        const { state: { query }, props: { onSearch } } = this;
         
         onSearch(query);
     }

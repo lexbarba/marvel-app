@@ -1,5 +1,3 @@
-'use strict'
-
 import React, { Component, Fragment } from 'react'
 import { Route, Link, Redirect, withRouter } from 'react-router-dom'
 import './index.sass'

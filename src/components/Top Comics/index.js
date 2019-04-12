@@ -1,5 +1,3 @@
-'use strict'
-
 import React, {Component} from 'react'
 
 class TopComics extends Component {
@@ -17,7 +15,7 @@ class TopComics extends Component {
             <div key={id} onClick={() => onComicSelected(id)} data-id={id} className="column cursor card is-one-fourth-widescreen is-three-quarters-mobile has-text-centered">
                 <div className="pointer card-image">
                     <figure className="image is-centered">
-                        <img className="hover" src={src}/>
+                        <img alt="comic" className="hover" src={src}/>
                     </figure>
                 </div>
             </div>
