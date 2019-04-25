@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Marvel App gives you access to all Marvel database. From our App, you will be able to get all the information regarding Marvel Characters and Comics. You will also be able to star your favourite characters to have a faster access from your Favourites tab. App available in 5 languages.
+The Marvel App gives you access to all Marvel database. From our App, you will be able to get all the information regarding Marvel Characters and Comics. You will also be able to star your favourite characters to have easier access from your Favourites tab. App available in 5 languages.
 
 ## Functional Description
 
@@ -30,4 +30,4 @@ The Marvel App gives you access to all Marvel database. From our App, you will b
 
 ### Technologies
 
-React JS, ES6 & CSS
+ReactJS, ES6 & CSS

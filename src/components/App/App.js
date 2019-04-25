@@ -7,8 +7,6 @@ import logic from '../Logic'
 import LanguageSelector from '../LanguageSelector'
 import i18n from '../../i18n'
 
-
-
 class App extends Component {
 
   state = {selectedLanguage: 'en'}

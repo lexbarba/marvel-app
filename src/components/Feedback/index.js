@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Feedback ({message}) {
+function Feedback ({ message }) {
     return <p className="column has-text-centered has-text-white">{message}</p>
 }
 

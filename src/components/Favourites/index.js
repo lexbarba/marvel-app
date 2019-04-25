@@ -26,7 +26,7 @@ class Favourite extends Component {
               <h3 className="favourites__title white title is-4">{favs__feedback}</h3> )}
             {userFavourites && userFavourites.length > 0 &&
               userFavourites.map(({ id, name }) => (
-                <a key={id} onClick={() => handleItemChosen(id)} data-id={id} className="favourite__item white column is-three-fifths is-offset-one-fifth ">
+                <a key={id} onClick={() => handleItemChosen(id)} data-id={id} className="favourite__item white column is-three-fifths is-offset-one-fifth">
                   <span className="panel-icon">
                     <i className="fas fa-bolt" />
                   </span>

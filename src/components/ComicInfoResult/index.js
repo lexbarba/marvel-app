@@ -29,7 +29,7 @@ class ComicInfoResult extends Component {
     }
 
     render() {
-        const { state:{comic, feedback}, props: {onCharacterSelected, moreInfo, price, characters} } = this;
+        const { state: { comic, feedback }, props: { onCharacterSelected, moreInfo, price, characters } } = this;
 
         return <PaintComic results={comic} feedback={feedback} onItemClick={onCharacterSelected} moreInfo={moreInfo} price={price} characters={characters}/>
     }

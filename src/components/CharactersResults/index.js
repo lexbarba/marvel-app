@@ -33,7 +33,7 @@ class CharactersResults extends Component {
     }
 
     render() {
-        const { state:{characters, feedback}, props: {onCharacterSelected} } = this;
+        const { state: { characters, feedback }, props: { onCharacterSelected } } = this;
 
         return  <MultipleResults results={characters} feedback={feedback} onItemClick={onCharacterSelected}/>
     }
